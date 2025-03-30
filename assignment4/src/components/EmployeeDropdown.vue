@@ -9,13 +9,10 @@
       <transition name="fade" apear>
        <div class="sub-menu" v-if="isOpen">
           <div class="menu-item">
-            <router-link to="/job/identify">Identify Job Description</router-link>
+            <router-link to="/employee/hire-employee">Hire Employee</router-link>
           </div>
           <div class="menu-item">
-            <router-link to="/job/get-desc">Get Job Description</router-link>
-          </div>
-          <div class="menu-item">
-            <router-link to="/job/edit-job">Edit Job Information</router-link>
+            <router-link to="/employee/update-employee">Update Employee</router-link>
           </div>
       </div>
       </transition>
@@ -24,7 +21,7 @@
 
 <script>
 export default {
-  name: 'JobDropdown',
+  name: 'EmployeeDropdown',
   props: ['title'],
   data () {
     return {

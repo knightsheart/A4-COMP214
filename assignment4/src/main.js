@@ -1,13 +1,12 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import MainMenu from './components/MainMenu.vue'
 import EmployeeHiring from './components/HR_Employee/EmployeeHiring.vue'
-import IdentifyJob from './components/HR_Job/IdentifyJob.vue'
-import ChangeDescription from './components/HR_Job/ChangeDescription.vue'
-import EditJob from './components/HR_Job/EditJob.vue'
+import IdentifyJobDescription from './components/HR_Job/IdentifyJobDescription.vue'
+import CreateJob from './components/HR_Job/CreateJob.vue'
+import ChangeJob from './components/HR_Job/ChangeJob.vue'
+import EmployeeList from './components/HR_Employee/EmployeeList.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -17,20 +16,24 @@ const router = createRouter({
       component: MainMenu
     },
     {
-      path: '/employee-hiring',
+      path: '/employee/hire-employee',
       component: EmployeeHiring
     },
     {
-      path: '/job/identify',
-      component: IdentifyJob
+      path: '/employee/update-employee',
+      component: EmployeeList
     },
     {
-      path: '/job/change-desc',
-      component: ChangeDescription
+      path: '/job/identify-desc',
+      component: IdentifyJobDescription
     },
     {
-      path: '/job/edit-job',
-      component: EditJob
+      path: '/job/change-job',
+      component: ChangeJob
+    },
+    {
+      path: '/job/create-job',
+      compontent: CreateJob
     }
   ]
 })
