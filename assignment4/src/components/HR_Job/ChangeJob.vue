@@ -7,10 +7,12 @@
   <h1>Change Job Information</h1>
   <table id="job-information">
     <thead>
-      <tr>Job Id</tr>
-      <tr>Job Title</tr>
-      <tr>Min Salary</tr>
-      <tr>Max Salary</tr>
+      <tr>
+        <th>Job Id</th>
+        <th>Job Title</th>
+        <th>Min Salary</th>
+        <th>Max Salary</th>
+      </tr>
     </thead>
     <tbody>
       <!--Add in table row and data from db-->

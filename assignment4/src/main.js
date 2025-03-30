@@ -3,10 +3,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import MainMenu from './components/MainMenu.vue'
 import EmployeeHiring from './components/HR_Employee/EmployeeHiring.vue'
-import IdentifyJobDescription from './components/HR_Job/IdentifyJobDescription.vue'
-import CreateJob from './components/HR_Job/CreateJob.vue'
-import ChangeJob from './components/HR_Job/ChangeJob.vue'
 import EmployeeList from './components/HR_Employee/EmployeeList.vue'
+import IdentifyJobDescription from './components/HR_Job/IdentifyJobDescription.vue'
+import ChangeJob from './components/HR_Job/ChangeJob.vue'
+import CreateJob from './components/HR_Job/CreateJob.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -24,7 +24,7 @@ const router = createRouter({
       component: EmployeeList
     },
     {
-      path: '/job/identify-desc',
+      path: '/job/get-desc',
       component: IdentifyJobDescription
     },
     {
@@ -33,8 +33,8 @@ const router = createRouter({
     },
     {
       path: '/job/create-job',
-      compontent: CreateJob
-    }
+      component: CreateJob
+    },
   ]
 })
 const app = createApp(App);

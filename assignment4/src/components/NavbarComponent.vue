@@ -1,6 +1,6 @@
 <script setup>
-import JobDropdown from './JobDropdown.vue'
-import EmployeeDropdown from './EmployeeDropdown.vue'
+import JobDropdown from './Dropdowns/JobDropdown.vue'
+import EmployeeDropdown from './Dropdowns/EmployeeDropdown.vue'
 </script>
 
 <template>

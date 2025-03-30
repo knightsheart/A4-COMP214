@@ -9,13 +9,13 @@
       <transition name="fade" apear>
        <div class="sub-menu" v-if="isOpen">
           <div class="menu-item">
-            <router-link to="/job/identify">Identify Job Description</router-link>
-          </div>
-          <div class="menu-item">
             <router-link to="/job/get-desc">Get Job Description</router-link>
           </div>
           <div class="menu-item">
-            <router-link to="/job/edit-job">Edit Job Information</router-link>
+            <router-link to="/job/change-job">Change Job</router-link>
+          </div>
+          <div class="menu-item">
+            <router-link to="/job/create-job">Create Job</router-link>
           </div>
       </div>
       </transition>
