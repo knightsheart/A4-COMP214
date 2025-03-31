@@ -1,7 +1,9 @@
 <script setup>
+import NavbarComponent from "../NavbarComponent.vue"
 </script>
 
 <template>
+  <NavbarComponent/>
   <h1>Employee List</h1>
   <h2>Update Employees</h2>
   <!--Purpose: User can edit salary, phone or email for all or any employees.-->

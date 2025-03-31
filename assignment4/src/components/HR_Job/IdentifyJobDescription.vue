@@ -1,6 +1,8 @@
 <script setup>
+import NavbarComponent from "../NavbarComponent.vue"
 </script>
 <template>
+  <NavbarComponent/>
   <h1>Identify Job Description</h1>
   <!--Enter job id-->
   <h2>Enter Job Id</h2>

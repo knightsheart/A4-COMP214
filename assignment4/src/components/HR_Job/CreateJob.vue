@@ -1,7 +1,9 @@
 <script setup>
+import NavbarComponent from "../NavbarComponent.vue"
 </script>
 
 <template>
+  <NavbarComponent/>
   <h1>Create a new Job</h1>
   <h2>Enter Job Information</h2>
   <form>

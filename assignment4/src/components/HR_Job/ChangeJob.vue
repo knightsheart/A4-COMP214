@@ -1,9 +1,11 @@
 <script setup>
+import NavbarComponent from "../NavbarComponent.vue"
 </script>
 
 <template>
   <!--List the job id, job title, min salary and max salary as a table-->
   <!--Ensure the table cells other than job id are editable-->
+  <NavbarComponent/>
   <h1>Change Job Information</h1>
   <table id="job-information">
     <thead>

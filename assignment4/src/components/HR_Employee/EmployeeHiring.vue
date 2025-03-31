@@ -1,6 +1,5 @@
 <script setup>
 import NavbarComponent from "../NavbarComponent.vue"
-
 </script>
 
 <template>
@@ -67,6 +66,4 @@ import NavbarComponent from "../NavbarComponent.vue"
 
 <!--Handle db stuff here in regards to v-for and displaying db data-->
 <script>
-export default{
-}
 </script>
